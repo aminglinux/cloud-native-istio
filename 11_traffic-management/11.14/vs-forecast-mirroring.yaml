@@ -9,8 +9,8 @@ spec:
   - route:
       - destination:
           host: forecast
-          subset: v1
+          subset: v2
         weight: 100
     mirror:         
         host: forecast     
-        subset: v2
+        subset: v1
